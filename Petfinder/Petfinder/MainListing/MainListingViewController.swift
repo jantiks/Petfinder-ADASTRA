@@ -7,15 +7,14 @@
 
 import UIKit
 
-class MainListingViewController: BaseViewController {
-    
-    
+class MainListingViewController: BaseViewControllerWithNavigation<MainCoordinator> {
 
+    private var coordinator: MainCoordinator!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("asd mainLisitng")
+        
     }
-
-
 }
 

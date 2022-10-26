@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+class BaseViewControllerWithNavigation<T: BaseCoordinator>: BaseViewController {
+    typealias coordinator = T
+}
